@@ -1,7 +1,7 @@
 public class AccountProcessor {
     @future
     public static void countContacts(List<Id> lAccountId){
-        
+        String test = '';
         List<Account> lAcc = [SELECT Id, Number_of_Contacts__c,
                               		(SELECT Id FROM Contacts) 
                               FROM Account 
