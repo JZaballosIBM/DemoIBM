@@ -10,7 +10,7 @@ public class AccountProcessor {
         for (Account a : lAcc){
             a.Number_of_Contacts__c = a.Contacts.Size();
         }
-        String testResult = '';
+        String testResult = '1234';
         update lAcc;
     }
 }

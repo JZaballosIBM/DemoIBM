@@ -11,6 +11,7 @@ private class AccountProcessorTest {
         Contact c2 = new Contact(LastName = 'TestContact 2', AccountId = acc.Id);
         insert c1;
         insert c2;
+        String test = '';
         Test.startTest();
         AccountProcessor.countContacts(lAccId);
         Test.stopTest();
